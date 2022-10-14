@@ -158,6 +158,12 @@ a:hover{
   border: none;
 }
 
+.page-link:hover{
+  cursor: pointer;
+  color:#477483;
+  font-size: larger;
+}
+
 a{
   text-decoration: none;
 }
@@ -166,4 +172,5 @@ a{
   font-weight: 700;
   border-bottom: 1px solid grey;
   color: black;
+  font-size: medium;
 }

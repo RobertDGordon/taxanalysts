@@ -24,7 +24,7 @@ const PageSelect = ({ numberOfPages, currentPage, setCurrentPage }) => {
 
 	return (
 		<div className="page-numbers">
-			<div className="page-prev" onClick={prevPage}>
+			<div className="page-link" onClick={prevPage}>
 				{`<- Back`}
 			</div>
 			{pageNumbers.length > 0
@@ -43,7 +43,7 @@ const PageSelect = ({ numberOfPages, currentPage, setCurrentPage }) => {
 				  ))
 				: null}
 
-			<div className="page-next" onClick={nextPage}>
+			<div className="page-link" onClick={nextPage}>
 				{`Next ->`}
 			</div>
 		</div>
