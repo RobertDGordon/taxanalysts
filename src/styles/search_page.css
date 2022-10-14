@@ -3,22 +3,16 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
-  /* align-items: center; */
 }
 
 .form-container{
   background-color: #ffffff;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* border-radius: 1%; */
   width: 100%;
 }
 
 .search-form{
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
   width: 100%;
@@ -75,7 +69,6 @@ label{
   border: 1px solid lightgray;
   height: 30px;
   min-width: 150px;
-  /* width: 100%; */
 }
 
 .search-form-sending{
@@ -117,7 +110,6 @@ label{
 
 .result{
   background-color: #ffffff;
-  /* border: 1px solid grey; */
   padding: 10px 30px;
   margin: 2px 0;
 }
@@ -172,5 +164,4 @@ a{
   font-weight: 700;
   border-bottom: 1px solid grey;
   color: black;
-  font-size: medium;
 }

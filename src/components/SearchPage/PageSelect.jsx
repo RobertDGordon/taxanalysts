@@ -27,6 +27,7 @@ const PageSelect = ({ numberOfPages, currentPage, setCurrentPage }) => {
 			<div className="page-link" onClick={prevPage}>
 				{`<- Back`}
 			</div>
+      
 			{pageNumbers.length > 0
 				? pageNumbers.map((page, index) => (
 						<div
